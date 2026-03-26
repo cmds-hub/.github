@@ -1,5 +1,5 @@
 # .github/ISSUE_TEMPLATE/fix_request.yml
-name: "Fix request"
+name: "🪲 Fix request"
 description: "Fix a problem in the project"
 title: "[Repair] "
 labels: ["repair"]
