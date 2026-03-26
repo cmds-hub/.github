@@ -1,31 +1,31 @@
 # .github/ISSUE_TEMPLATE/bug_report.yml
-name: "🐞 Bug Report"
-description: "Report a bug in the project."
-title: "[Bug] "
-labels: ["bug"]
+name: "Fix request"
+description: "Repair a problem in the project"
+title: "[Repair] "
+labels: ["repair"]
 body:
   - type: textarea
     id: description
     attributes:
-      label: Bug Description
-      description: A clear description of what the bug is.
+      label: Description
+      description: A clear description of the problem
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Steps to Reproduce
-      description: Steps to reproduce the behavior.
+      label: Steps to reproduce
+      description: Steps to reproduce the problem
       placeholder: |
         1. Go to '...'
-        2. Click on '...'
+        2. Click '...'
         3. See error
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Expected Behavior
-      description: What you expected to happen.
+      label: Expected behavior
+      description: A clear explanation of what you expected to happen
     validations:
       required: false
